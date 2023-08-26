@@ -1,0 +1,82 @@
+.user-c-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.user-cards-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.user-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  width: calc(33.33% - 20px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-info {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.user-info input {
+  position: relative;
+  width: 90%;
+  margin-bottom: 2px;
+  /* border: 2px solid red; */
+}
+
+.user-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  margin: 0 auto;
+}
+
+.user-image img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+.upload-section {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-section input {
+  display: none;
+}
+
+.upload-section label {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.compare-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.compare-button:hover {
+  background-color: #0056b3;
+}
